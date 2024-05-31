@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jai shree ram</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/8967c8ebdc.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"> <img src="img/result.png "></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenue()"></i>
+
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">RESOURCES</a></li>
+          <li><a href="Blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenue()"></i>
+    </nav>
+
+  <h1>ABOUT US</h1>
+  </section>
+  <!-------about us content------>>
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1> WE ARE UNITED BY LOVE</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam hic, ea rerum esse maxime repellendus ut voluptatum quas quod magnam incidunt eos enim nam provident animi doloribus recusandae perferendis sequi!</p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+      </div>
+      <div class="about-col">
+        <img src="img/img4.jpg">
+      </div>
+    </div>
+  </section>
+
+ 
+  <!-------------java script for toggle menu-------------------->
+
+  <script>
+    var navlinks = document.getElementById("navlinks")
+
+    function showMenue() {
+      navlinks.style.right = "0";
+    }
+    function hideMenue() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+  
+                      <!--------------- FOOTER ------------------->
+  <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore atque, unde recusandae eaque facere, sunt hic voluptatem dicta similique natus exercitationem illum sit? Illo, <br> veniam adipisci? Quia, saepe delectus. Delectus.
+    </p>  
+    <div class="icon">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-linkedin"></i>
+      <i class="fa fa-youtube"></i>
+    </div>
+    <p class="name">Made With <i class="fa fa-heart-o"></i> By Raj... </p>
+    
+  </sesction>
+
+
+
+</body>
+
+</html>

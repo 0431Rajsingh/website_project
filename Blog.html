@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jai shree ram</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/8967c8ebdc.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"> <img src="img/result.png "></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenue()"></i>
+
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">RESOURCES</a></li>
+          <li><a href="Blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenue()"></i>
+    </nav>
+
+  <h1>Resources</h1>
+  </section>
+                    <!------- blog page ------>
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="img/img5.jpg" >
+        <h2>resources</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dignissimos qui nobis. A tenetur rem fugit porro? Nostrum nisi cumque officiis error voluptatum, porro ex doloribus, incidunt atque quibusdam magnam.</p>
+        <br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dicta fuga tempore. Dolor ea nihil necessitatibus repellendus voluptatum, deserunt possimus repudiandae delectus ex excepturi animi placeat ab minus consectetur harum!</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptates culpa esse at ullam. Culpa, nostrum nulla rem doloribus eligendi perspiciatis quo error laudantium aperiam dolores, saepe, accusantium ex similique!</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, repudiandae! Nisi quaerat maxime suscipit molestias amet veritatis ad dolores asperiores soluta dolor illum dolorem odit, obcaecati porro rem fugiat expedita.</p>
+
+        <div class="comment-box">
+
+          <h3>Leave a Comment</h3>
+        <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea row="5" placeholder="Your Comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        </form>
+        </div>
+
+      </div>
+      <div class="blog-right">
+        <h3>post categures</h3>
+        <div>
+          <span>business analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Data Science</span>
+          <span>28</span>
+        </div>
+         <div>
+          <span>Machine Learning</span>
+          <span>15</span>
+        </div>
+        <div>
+          <span>Computer Science</span>
+          <span>34</span>
+        </div>
+        <div>
+          <span>AutoCAD</span>
+          <span>42</span>
+        </div>
+          <div>
+          <span>journalism</span>
+          <span>22</span>
+        </div>
+        <div>
+          <span>Commerce</span>
+          <span>30</span>
+        </div>
+    </div>
+  </section>                  
+
+  <!-------------java script for toggle menu-------------------->
+
+  <script>
+    var navlinks = document.getElementById("navlinks")
+
+    function showMenue() {
+      navlinks.style.right = "0";
+    }
+    function hideMenue() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+  
+                      <!--------------- FOOTER ------------------->
+  <section class="footer">
+    <h4>ABOUT US</h4>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore atque, unde recusandae eaque facere, sunt hic voluptatem dicta similique natus exercitationem illum sit? Illo, <br> veniam adipisci? Quia, saepe delectus. Delectus.
+    </p>  
+    <div class="icon">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-linkedin"></i>
+      <i class="fa fa-youtube"></i>
+    </div>
+    <p class="name">Made With <i class="fa fa-heart-o"></i> By Raj... </p>
+    
+  </sesction>
+
+
+
+</body>
+
+</html>
